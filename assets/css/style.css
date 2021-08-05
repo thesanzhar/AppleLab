@@ -227,6 +227,8 @@ h1, h2, h3, h4, h5, h6 {
 .modal-body_slider {
   width: 500px;
   margin: 0 20px 0 0;
+  display: flex;
+  align-self: center;
 }
 
 .modal-body_text {
@@ -2641,6 +2643,13 @@ section {
   }
 }
 
+@media (max-width: 750px) {
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 650px) {
   .assistant_stat {
     display: grid;
@@ -2730,6 +2739,13 @@ section {
   #footer .credits {
     margin: 0 0 20px 0;
   }
+
+  .modal-body_slider {
+    width: 400px;
+    margin: 0 20px 0 0;
+    display: flex;
+    align-self: center;
+}
 }
 
 
@@ -2759,6 +2775,16 @@ section {
 
   #automatization_line3 {
     height: 180px;
+  }
+}
+
+
+@media (max-width: 490px) {
+  .modal-body_slider {
+    width: 300px;
+    margin: 0 20px 0 0;
+    display: flex;
+    align-self: center;
   }
 }
 
@@ -2858,6 +2884,15 @@ section {
 
   #automatization_line3 {
     height: 220px;
+  }
+}
+
+@media (max-width: 380px) {
+  .modal-body_slider {
+    width: 200px;
+    margin: 0 20px 0 0;
+    display: flex;
+    align-self: center;
   }
 }
 
